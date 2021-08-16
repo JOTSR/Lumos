@@ -1,0 +1,27 @@
+:root {
+    /*--main-font: 'Quicksand', sans-serif;*/
+    --main-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --main-font-color: rgb(5, 5, 5);
+    --ligth-accent-color: rgb(40, 108, 255);
+    --dark-accent-color: rgb(20, 88, 235);
+    --background-color: rgb(255,255,255);
+    --background-gradient: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgb(240, 240, 240) 75%, rgba(201,245,96,1) 75%, rgba(69,175,42,1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    height: 100vh;
+    background: var(--background-color);
+    background: var(--background-gradient);
+}
+
+* {
+    box-sizing: border-box;
+}
